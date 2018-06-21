@@ -535,7 +535,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Artus makes three attacks with Bookmark his longbow."
+						"Artus makes three attacks with Bookmark or his longbow."
 					]
 				},
 				{
@@ -824,7 +824,7 @@
 				{
 					"name": "Natural Shelter",
 					"entries": [
-						"The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight.The chwinga can use it's action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed."
+						"The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use it's action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed."
 					]
 				}
 			],
@@ -954,8 +954,14 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The eblis attacks twice with its beak.",
-						"Beak Melee Weapon Attack: {@hit +5} to hit, reach 5 ft., one target Hit: 5 ({@dice 1d4+3}) piercing damage."
+						"The eblis attacks twice with its beak."
+
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"Melee Weapon Attack: {@hit +5} to hit, reach 5 ft., one target Hit: 5 ({@dice 1d4+3}) piercing damage."
 					]
 				}
 			],
@@ -1017,7 +1023,7 @@
 			"ac": "17 (natural armor)",
 			"hp": {
 				"average": 147,
-				"formula": "1d10+70"
+				"formula": "14d10+70"
 			},
 			"speed": {
 				"walk": 30,
@@ -2643,7 +2649,7 @@
 				{
 					"name": "Quarterstaff",
 					"entries": [
-						"Melee Weapon Attack: {@hit +5} to hit, reach 5 ft., one target. Hit: 5 ({@dice 1d6+2}) bludgeoning damage, or 6 ({@dice 1d8+2}) bludgeoning damage when used with two hands. Breath Weapon (Recharge 5-6). Zindar uses one of the following options:"
+						"Melee Weapon Attack: {@hit +5} to hit, reach 5 ft., one target. Hit: 5 ({@dice 1d6+2}) bludgeoning damage, or 6 ({@dice 1d8+2}) bludgeoning damage when used with two hands."
 					]
 				},
 				{
@@ -3327,7 +3333,7 @@
 				{
 					"name": "Battleaxe",
 					"entries": [
-						"Melee Weapon Attack: {@hit +5} to hit, reach 5 ft., one target. Hit: 7 ({@dice{@dice  1d8 }+ 3}) slashing damage."
+						"Melee Weapon Attack: {@hit +5} to hit, reach 5 ft., one target. Hit: 7 ({@dice 1d8+3}) slashing damage."
 					]
 				}
 			]

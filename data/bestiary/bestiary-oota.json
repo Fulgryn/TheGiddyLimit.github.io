@@ -643,7 +643,8 @@
 					]
 				}
 			],
-			"page": 224
+			"page": 224,
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/616/derro.mp3"
 		},
 		{
 			"name": "Derro Savant",
@@ -755,7 +756,8 @@
 						}
 					}
 				}
-			]
+			],
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/615/derro-savant.mp3"
 		},
 		{
 			"name": "Droki",
@@ -1098,7 +1100,8 @@
 					]
 				}
 			],
-			"page": 226
+			"page": 226,
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/627/duergar-kavalrachni.mp3"
 		},
 		{
 			"name": "Duergar Keeper of the Flame",
@@ -1317,7 +1320,8 @@
 						]
 					}
 				}
-			]
+			],
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/630/duergar-soulblade.mp3"
 		},
 		{
 			"name": "Duergar Spore Servant",
@@ -1438,7 +1442,8 @@
 					]
 				}
 			],
-			"page": 227
+			"page": 227,
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/631/duergar-stone-guard.mp3"
 		},
 		{
 			"name": "Duergar Xarrorn",
@@ -1515,7 +1520,8 @@
 					]
 				}
 			],
-			"page": 226
+			"page": 226,
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/633/duergar-xarrorn.mp3"
 		},
 		{
 			"source": "OotA",
@@ -1651,7 +1657,8 @@
 					]
 				}
 			],
-			"page": 231
+			"page": 231,
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/639/female-steeder.mp3"
 		},
 		{
 			"name": "Fraz-Urb'luu",
@@ -2673,7 +2680,8 @@
 					]
 				}
 			],
-			"page": 231
+			"page": 231,
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/659/male-steeder.mp3"
 		},
 		{
 			"name": "Narrak",
@@ -2855,7 +2863,7 @@
 				{
 					"name": "Wand of Orcus",
 					"entries": [
-						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast animate dead, blight, or speak with dead. Alternatively, he can expend or 1 or more of the wand's charges to cast one of the following spells from it: circle of death (1 charge), finger of death (1 charge), or power word kill (2 charges). The wand regains {@dice 1d4+3 }charges daily at dawn.",
+						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast animate dead, blight, or speak with dead. Alternatively, he can expend or 1 or more of the wand's charges to cast one of the following spells from it: circle of death (1 charge), finger of death (1 charge), or power word kill (2 charges). The wand regains {@dice 1d4+3} charges daily at dawn.",
 						"While holding the wand, Orcus gains +3 AC and can use an action to conjure undead creatures whose combined average hit points don't exceed 500, These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn."
 					]
 				},
@@ -3373,7 +3381,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The veteran makes two longsword attacks. If it has a shorts word drawn, it can also make a shortsword attack."
+						"The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
 					]
 				},
 				{
@@ -3630,7 +3638,7 @@
 				{
 					"name": "Foul Absorption",
 					"entries": [
-						"Yestabrod absorbs putrescence from a corpse within 5 feet of it, regaining {@dice 1d8+2 }hit points"
+						"Yestabrod absorbs putrescence from a corpse within 5 feet of it, regaining {@dice 1d8+2} hit points"
 					],
 					"attack": [
 						"||1d8+2"
@@ -3900,7 +3908,7 @@
 					]
 				},
 				{
-					"name": "Web (Recharge 5-6)",
+					"name": "Web (Recharge 5\u20146)",
 					"entries": [
 						"Ranged Weapon Attack: {@hit +5} to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
 					]

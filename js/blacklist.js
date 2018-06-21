@@ -48,23 +48,23 @@ class Blacklist {
 			Object.keys(fromRec).forEach(k => data[k] ? data[k] = data[k].concat(fromRec[k]) : data[k] = fromRec[k])
 		}
 
-		DataUtil.promiseJSON(`data/bestiary/index.json`)
-			.then(index => Promise.all(Object.values(index).map(f => DataUtil.promiseJSON(`data/bestiary/${f}`))))
+		DataUtil.loadJSON(`data/bestiary/index.json`)
+			.then(index => Promise.all(Object.values(index).map(f => DataUtil.loadJSON(`data/bestiary/${f}`))))
 			.then(monData => {
 				monData.forEach(d => {
 					mergeData(d);
 				});
 				Promise.resolve();
-			}).then(() => DataUtil.promiseJSON(`data/spells/index.json`))
-			.then(index => Promise.all(Object.values(index).map(f => DataUtil.promiseJSON(`data/spells/${f}`))))
+			}).then(() => DataUtil.loadJSON(`data/spells/index.json`))
+			.then(index => Promise.all(Object.values(index).map(f => DataUtil.loadJSON(`data/spells/${f}`))))
 			.then(spellData => {
 				spellData.forEach(d => {
 					mergeData(d);
 				});
 				Promise.resolve();
 			}).then(() => {
-				const promises = FILES.map(url => DataUtil.promiseJSON(`data/${url}`));
-				promises.push(EntryRenderer.item.promiseData());
+				const promises = FILES.map(url => DataUtil.loadJSON(`data/${url}`));
+				promises.push(EntryRenderer.item.promiseData({}, true));
 				return Promise.all(promises).then(retData => {
 					retData.forEach(d => {
 						if (d.race) d.race = EntryRenderer.race.mergeSubraces(d.race);
